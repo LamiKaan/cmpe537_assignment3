@@ -19,14 +19,17 @@ scratchpad/
 *.docx
 **/*.zip
 # Ignore everything inside data/
-Data/*
+Data/Caltech20/train/*
+Data/Caltech20/test/*
+Data/TurCoins/train/*
+Data/TurCoins/test/*
 ProducedData/*
 # But keep the subdirectory itself
 !Data/Caltech20/train/.gitkeep
 !Data/Caltech20/test/.gitkeep
 !Data/TurCoins/train/.gitkeep
 !Data/TurCoins/test/.gitkeep
-!data/.gitkeep
+!Data/.gitkeep
 !ProducedData/.gitkeep
 # Ignore everything inside quickdraw_subset_np
 models/
